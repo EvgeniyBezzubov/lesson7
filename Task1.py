@@ -2,7 +2,7 @@ import time
 
 
 class TrafficLight:
-    __color = None
+    __color = "off"
 
     def running(self):
         __color = "red"
